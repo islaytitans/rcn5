@@ -1,0 +1,36 @@
+{
+    "namespace": "Items",
+    "items" : {
+        "includes": [
+            {
+                "name": "api-key",
+                "path": "/sitecore/system/Settings/Services/API Keys/RCN5",
+                "scope": "singleItem"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/RCN5"
+            },
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/RCN5"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/RCN5"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/RCN5"
+            },
+            {
+                "name": "content",
+                "path": "/sitecore/content/RCN5"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/RCN5"
+            }
+        ]
+    }
+}
