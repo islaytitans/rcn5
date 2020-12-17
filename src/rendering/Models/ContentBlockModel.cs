@@ -10,5 +10,7 @@ namespace RCN5.Models
         public TextField Title { get; set; }
 
         public RichTextField Text { get; set; }
+
+        public TextField Description { get; set; }
     }
 }
