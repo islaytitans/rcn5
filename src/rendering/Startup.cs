@@ -63,6 +63,7 @@ namespace RCN5
                     //Register your components here
                     options
                         .AddModelBoundView<ContentBlockModel>("ContentBlock")
+                        .AddModelBoundView<CallToActionModel>("CallToAction")
                         .AddDefaultPartialView("_ComponentNotFound");
                 })
                 // Includes forwarding of Scheme as X-Forwarded-Proto to the Layout Service, so that
