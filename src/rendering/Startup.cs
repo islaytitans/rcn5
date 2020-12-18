@@ -64,6 +64,14 @@ namespace RCN5
                     options
                         .AddModelBoundView<ContentBlockModel>("ContentBlock")
                         .AddModelBoundView<CallToActionModel>("CallToAction")
+                        .AddModelBoundView<FooterModel>("Footer")
+                        .AddModelBoundView<HeaderModel>("Header")
+                        .AddModelBoundView<MultilinkCallToActionModel>("MultilinkCallToAction")
+                        .AddModelBoundView<SignpostModel>("Signpost")
+                        .AddModelBoundView<TypeBlockModel>("TypeBlock")
+                        .AddModelBoundView<FullWidthContentModel>("FullWidthContent")
+                        .AddModelBoundView<SectionModel>("Section")
+                        .AddModelBoundView<TwoHalvesModel>("TwoHalves")
                         .AddDefaultPartialView("_ComponentNotFound");
                 })
                 // Includes forwarding of Scheme as X-Forwarded-Proto to the Layout Service, so that
